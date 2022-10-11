@@ -1,0 +1,210 @@
+import React from "react";
+import 'aos/dist/aos.css';
+function Projectsside(){
+
+
+  function openNav() {
+
+
+    const mq = window.matchMedia( "(max-width: 819px)" );
+    if (mq.matches) {
+      document.getElementById("mySidenav").style.width = "100%";
+
+
+
+      } else {
+        document.getElementById("mySidenav").style.width = "420px";
+
+
+      }
+      
+      mq.addListener(openNav)
+      document.getElementById("spa1").style.opacity="1"
+
+    document.getElementById("sp1").style.opacity="0"
+    document.getElementById("spa1").style.visibility="visible"
+
+
+    document.getElementById("all").style.filter = "brightness(60%) ";
+
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("er");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+
+  };
+ 
+
+
+
+  
+  function closeNav() {
+
+    document.getElementById("all").style.filter = "brightness(100%) ";
+
+    document.getElementById("mySidenav").style.width = "0px";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("sp1").style.opacity="1"
+    document.getElementById("spa1").style.opacity="0"
+
+    document.getElementById("spa1").style.visibility="hidden"
+
+
+  }
+
+  
+  function about(){
+    document.getElementById("About").style.opacity="0"
+    document.getElementById("services").style.opacity="1"
+
+
+  }
+  function services(){
+
+    document.getElementById("About").style.opacity="1"
+    document.getElementById("services").style.opacity="0"
+
+
+    
+  }
+  
+
+
+
+return(
+
+ 
+<div   >
+   <div className="col">
+<div  >  
+<button  id="sp1" className="spa ss"  onClick={()=>{
+
+openNav()
+}}></button>
+ 
+<button className="s" id="spa1"  onClick={()=>{
+
+closeNav()
+}}></button>
+ </div>
+ </div>
+<div   id="mySidenav" class="sidenav" >
+  
+  <div   id="myDIV" className="we offset-md-1"> 
+  <div   className=""> 
+
+<a  onClick={()=>{
+services()
+
+}}
+ className="er active" >About</a>
+<div id="About">
+<h3 className="py-1 col-md-2" id="p1">Creative<br/>
+Passionate<br/>
+Focused</h3>
+
+
+<p style={{fontSize:"18px"}} className="py-5">Currently I am a freelance architectural designer, working with a variety of clients.</p>
+<p style={{fontSize:"16px"}} className="py-4">The main goal in my work is to reach the main goal of the client and work to develop the level of work within the common group of engineers and experts</p>
+
+
+</div>
+</div>
+
+<div className="">  
+ 
+ <a style={{cursor:"pointer"}} onClick={()=>{
+   about()
+ }} className="er" >Services</a>
+<div id="services"> 
+<div className="services-menu">
+<div className="row ">
+<div className="col-md-6 py-3">
+<div className="contaier1">
+
+<i>Interior Design</i>
+
+  </div>
+
+
+</div>
+<div className="col-md-6">
+<div className="contaier1 py-3 ">
+<i>Exterior Design</i>
+ 
+  </div>
+
+
+</div>
+
+<div className="col-md-6">
+<div className="contaier1 py-3">
+<i>Shop Drawing</i>
+
+ 
+  </div>
+
+
+</div>
+<div className="col-md-6">
+<div className="contaier1 py-3">
+<i>Architectural Design</i>
+ 
+  </div>
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+ </div>
+  <div className=""> 
+  <a className="er" href="#">Contact</a>
+  
+  </div>
+  </div>
+  <footer  className="social">
+  <ul >
+  <li>
+    <a href="https://www.facebook.com/muhammad.alshughouri" target="_blank">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+  <li>
+    <a href="https://wa.me/+963994568348" target="_blank"><i class="fab fa-whatsapp icon"></i></a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/alshughouri/"><i class="fab fa-instagram icon"></i></a></li>
+  <li>
+    <a href="mailto:email@example.com"><i class="fab fa-google-plus-g icon"></i></a></li>
+</ul>
+</footer>
+<div>
+
+</div>
+
+
+
+  </div>
+
+
+
+  
+</div>
+
+
+
+)
+
+
+}
+
+
+
+export default Projectsside
