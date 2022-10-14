@@ -219,10 +219,10 @@ border: #39ccc7;
 width: 70px;
 height: 70px;
 float: right;
-position: fixed;
+position:relative;
 right: 24px;
-bottom: -89%;
-
+bottom: -465px;
+z-index: 1 !important;
 }
 .btn2::before{
 
@@ -678,9 +678,9 @@ bottom: -89%;
 .inter{
 text-transform: uppercase;
 color: white;
-  position:fixed;
-  bottom: -92%;
-
+  position:relative;
+  bottom: -450px;
+text-align: left;
  font-size: 20px;
 }
 

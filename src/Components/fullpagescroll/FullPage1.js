@@ -122,7 +122,7 @@ return (
         >
 
           
-        <div id="scroll-pages" className="scroll-pages" >      
+        <div  >      
 
   <div className="section  mhmdinfo1" id="mhmdinfo">
    
@@ -133,8 +133,7 @@ return (
 
 
           <div className="section" id="exter" style={exteri}>
-
-            <div className="container">
+            <div className="container ">
              
             
             <div className="full-line "> 
@@ -148,12 +147,14 @@ return (
            </span>
           
            </div>
-           <div className="fofo"> 
-           <Link  className="btn1" to="/exterior-design" >
+        
+
+           <div class="fofo  "> 
+           <Link  className="btn1 " to="/exterior-design" >
            <button className="btn2 animate__animated animate__pulse animate__infinite ">
-              
             </button>
             </Link>
+            
             </div>
             <div  className="inter animate__animated animate__fadeInRight" > 
             <span >exterior design</span>
@@ -162,6 +163,7 @@ return (
            </div>
            </div>
           </div>
+          
           <div className="section" id="img2" style={inter}>
           <div className="container"> 
          
