@@ -1,10 +1,10 @@
 import React from "react";
 import './projects1.css'
-import exterior from '../images/1.png'
-import exterior1 from '../images/4.png'
-import exterior2 from '../images/05.png'
-import exterior3 from '../images/6.png'
-import exterior4 from '../images/7.png'
+import exterior from '../assets/images/1.png'
+import exterior1 from '../assets/images/4.png'
+import exterior2 from '../assets/images/05.png'
+import exterior3 from '../assets/images/6.png'
+import exterior4 from '../assets/images/7.png'
 import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";

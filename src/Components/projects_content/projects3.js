@@ -1,6 +1,6 @@
 import React from "react";
 import './projects1.css'
-import shopdrawing from '../images/12.jpg'
+import shopdrawing from '../assets/images/12.jpg'
 
 import { motion} from 'framer-motion'
 import Aos from "aos";

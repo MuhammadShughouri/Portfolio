@@ -1,10 +1,10 @@
 import React from "react";
 import './projects2.css'
-import interior from '../images/2.jpg'
-import interior1 from '../images/8.jpg'
-import interior2 from '../images/9.jpg'
-import interior3 from '../images/10.jpg'
-import interior4 from '../images/11.jpg'
+import interior from '../assets/images/2.jpg'
+import interior1 from '../assets/images/8.jpg'
+import interior2 from '../assets/images/9.jpg'
+import interior3 from '../assets/images/10.jpg'
+import interior4 from '../assets/images/11.jpg'
 import { motion} from "framer-motion";
 import AOS from "aos";
 AOS.init();
