@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './splash.css'
 import PropagateLoader from "react-spinners/PropagateLoader";
-import BackPages from '../assets/backpages/backpages';
+import BackPages from '../backpages/backpages';
 const SplashPage = () => {
   // Loading state 
   const [isLoading, setIsLoading] = useState(true);

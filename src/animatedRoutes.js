@@ -9,7 +9,7 @@ import Projects_shop2 from "./Components/projects_content/projects-shop2";
 import Projects_mosque from "./Components/projects_content/projects-mosque";
 import Projects_villa from "./Components/projects_content/projects-villa";
 import Projects_sport from "./Components/projects_content/projects-sport";
-import BackPages from "./Components/assets/backpages/backpages";
+import BackPages from "./Components/backpages/backpages";
 import Home from './Components/Homepage/home';
 import {AnimatePresence} from 'framer-motion'
 function AnimatedRoutes(){

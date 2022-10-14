@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";
-import exterior from '../assets/images/1.png'
+import exterior from '../assets/images/first.png'
 import interior from '../assets/images/2.jpg'
 import shop from '../assets/images/3.jpg'
 import arch from '../assets/images/24.jpg'
@@ -46,6 +46,7 @@ return (
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${exterior})`,
+        height:'100%'
 
       }
       
