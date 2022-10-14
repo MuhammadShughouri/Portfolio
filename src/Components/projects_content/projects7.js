@@ -13,6 +13,8 @@ import shop7 from '../assets/images/38.JPG'
 
 
 import { motion} from 'framer-motion'
+import Aos from "aos";
+Aos.init();
 function Projects7(){
   
 const shopd={

@@ -4,6 +4,8 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import './FullPage.scss'
 import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
+import 'aos/dist/aos.css';
+import AOS from "aos";
 import exterior from '../assets/images/1.png'
 import interior from '../assets/images/2.jpg'
 import shop from '../assets/images/3.jpg'
@@ -14,6 +16,7 @@ import shop2 from '../assets/images/33.JPG'
 import mhmd from '../assets/images/mhmd3.jpg'
 
 
+AOS.init();
 const anchors = [ "abouttt","exterior-project", "interior-design", "shop-drawing","shop-drawing2","architectural-mosuqe","architectural-villa","architectural-sportclub"];
 
 class Full extends React.Component {
@@ -113,7 +116,9 @@ return (
       return (
         <>
         
- 
+        <motion.div
+ data-aos="fade-left"
+        >
 
           
         <div id="scroll-pages" className="scroll-pages" >      
@@ -135,7 +140,7 @@ return (
             
             <div className="info " > 
             
-           <span className="">
+           <span className="animate__animated animate__fadeInRight">
            <h4 id="work">work</h4>
            <h4 id="num">01</h4>
 
@@ -144,12 +149,12 @@ return (
            </div>
            <div className="fofo"> 
            <Link  className="btn1" to="/exterior-design" >
-           <button className="btn2 ">
+           <button className="btn2 animate__animated animate__pulse animate__infinite ">
               
             </button>
             </Link>
             </div>
-            <div  className="inter " > 
+            <div  className="inter animate__animated animate__fadeInRight" > 
             <span >exterior design</span>
             <h2>exterior project <br></br> Saudi Arabia</h2>
             </div>
@@ -161,7 +166,7 @@ return (
          
             <div className="full-line1">
             
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
              
            <span>
            <h4   id="work">work</h4>
@@ -173,11 +178,11 @@ return (
            </div>
            
            <Link  className="btn3" to="/interior-design" >
-           <button className="btn4 go ">
+           <button className="btn4 go animate__animated animate__pulse animate__infinite">
               
             </button>
             </Link>
-            <div  className="inter1 " > 
+            <div  className="inter1 animate__animated animate__fadeInRight" > 
             <span >interior design</span>
             <h2>interior project <br></br> Turkey Istanbul</h2>
             </div>
@@ -192,7 +197,7 @@ return (
           <div className="section" id="img2" style={shopdraw}>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>03</h4>
@@ -200,10 +205,10 @@ return (
            </span>
            </div>
            <Link   className="btn5 " to="/drawing" > 
-           <button className="btn6 "></button>
+           <button className="btn6 animate__animated animate__pulse animate__infinite "></button>
              </Link>
            
-            <div  className="inter2 "> 
+            <div  className="inter2 animate__animated animate__fadeInRight"> 
             <span >shop drawing</span>
             <h2>shop drawing project <br></br> America</h2>
             </div>
@@ -216,7 +221,7 @@ return (
           <div className="section" id="img2" style={shopdraw2 }>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>04</h4>
@@ -224,10 +229,10 @@ return (
            </span>
            </div>
            <Link   className="btn7 " to="/hall_villa" > 
-           <button className="btn8  "></button>
+           <button className="btn8 animate__animated animate__pulse animate__infinite "></button>
              </Link>
            
-            <div  className="inter6"> 
+            <div  className="inter6 animate__animated animate__fadeInRight"> 
             <span >shop drawing</span>
             <h2>Hall Villa <br></br> America</h2>
             </div>
@@ -240,7 +245,7 @@ return (
           <div className="section" id="img2" style={architectural}>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>05</h4>
@@ -248,10 +253,10 @@ return (
            </span>
            </div>
            <Link   className="btn9 " to="/mosque" > 
-           <button className="btn10  "></button>
+           <button className="btn10 animate__animated animate__pulse animate__infinite "></button>
              </Link>
            
-            <div  className="inter3 "> 
+            <div  className="inter3 animate__animated animate__fadeInRight"> 
             <span >architectural design</span>
             <h2>mosque <br></br> damascus/syria</h2>
             </div>
@@ -263,7 +268,7 @@ return (
           <div className="section" id="img2" style={architectural_villa}>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>06</h4>
@@ -271,10 +276,10 @@ return (
            </span>
            </div>
            <Link   className="btn11 " to="/villa" > 
-           <button className="btn12 "></button>
+           <button className="btn12 animate__animated animate__pulse animate__infinite "></button>
              </Link>
            
-            <div  className="inter4"> 
+            <div  className="inter4 animate__animated animate__fadeInRight"> 
             <span >architectural design</span>
             <h2>VILLA <br></br> damascus/syria</h2>
             </div>
@@ -287,7 +292,7 @@ return (
           <div className="section" id="img2" style={architectural_sport}>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info "> 
+            <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>07</h4>
@@ -295,10 +300,10 @@ return (
            </span>
            </div>
            <Link   className="btn13 " to="/sport" > 
-           <button className="btn14  "></button>
+           <button className="btn14 animate__animated animate__pulse animate__infinite "></button>
              </Link>
            
-            <div  className="inter5 "> 
+            <div  className="inter5 animate__animated animate__fadeInRight"> 
             <span >architectural design</span>
             <h2>SPORT CLUB <br></br> damascus/syria</h2>
             </div>
@@ -311,6 +316,7 @@ return (
 
 
         </div>
+        </motion.div>
         </>
       );
 

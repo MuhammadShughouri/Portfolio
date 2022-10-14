@@ -3,6 +3,8 @@ import './projects1.css'
 import shopdrawing from '../assets/images/12.jpg'
 
 import { motion} from 'framer-motion'
+import Aos from "aos";
+Aos.init();
 function Projects3(){
   
 const shopd={

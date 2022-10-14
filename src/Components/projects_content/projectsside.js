@@ -1,5 +1,6 @@
 import React from "react";
-  function Projectsside(){
+import 'aos/dist/aos.css';
+function Projectsside(){
 
 
   function openNav() {
