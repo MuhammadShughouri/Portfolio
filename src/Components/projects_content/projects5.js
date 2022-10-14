@@ -5,8 +5,6 @@ import villa1 from '../assets/images/26.jpg'
 import villa2 from '../assets/images/27.jpg'
 import villa3 from '../assets/images/28.jpg'
 import { motion} from "framer-motion";
-import AOS from "aos";
-AOS.init();
 function Projects5(){
   
 

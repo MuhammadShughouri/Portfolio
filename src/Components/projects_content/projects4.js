@@ -6,8 +6,6 @@ import arch2 from '../assets/images/19.jpg'
 import arch3 from '../assets/images/20.jpg'
 import arch4 from '../assets/images/21.jpg'
 import { motion} from "framer-motion";
-import AOS from "aos";
-AOS.init();
 function Projects2(){
   
 

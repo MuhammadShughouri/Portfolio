@@ -6,9 +6,6 @@ import exterior2 from '../assets/images/05.png'
 import exterior3 from '../assets/images/6.png'
 import exterior4 from '../assets/images/7.png'
 import { motion} from 'framer-motion'
-import 'aos/dist/aos.css';
-import AOS from "aos";
-AOS.init();
 
 
 function Projects1(){

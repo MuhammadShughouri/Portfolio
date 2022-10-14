@@ -5,8 +5,6 @@ import sport1 from '../assets/images/30.jpg'
 import sport2 from '../assets/images/31.jpg'
 import sport3 from '../assets/images/32.jpg'
 import { motion} from "framer-motion";
-import AOS from "aos";
-AOS.init();
 function Projects6(){
   
 

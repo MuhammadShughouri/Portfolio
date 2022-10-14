@@ -6,8 +6,6 @@ import interior2 from '../assets/images/9.jpg'
 import interior3 from '../assets/images/10.jpg'
 import interior4 from '../assets/images/11.jpg'
 import { motion} from "framer-motion";
-import AOS from "aos";
-AOS.init();
 function Projects2(){
   
 
