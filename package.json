@@ -2,7 +2,6 @@
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
-"homepage":"http://Abdalrahmansh9.github.io/masduhammadshgori",
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
     "@fullpage/react-fullpage": "^0.1.27",
