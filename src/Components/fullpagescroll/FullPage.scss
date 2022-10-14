@@ -14,9 +14,9 @@ h3 {
   
 }
 
-body,html .fp-section {
+body,html.fp-section {
   text-align: center;
-height: hidden !important;
+min-height: 100% !important;
 }
 
 #scroll-pages{
