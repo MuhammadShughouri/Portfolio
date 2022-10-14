@@ -4,7 +4,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import './FullPage.scss'
 import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
-import 'aos/dist/aos.css';
 import exterior from '../assets/images/1.png'
 import interior from '../assets/images/2.jpg'
 import shop from '../assets/images/3.jpg'
@@ -114,9 +113,7 @@ return (
       return (
         <>
         
-        <motion.div
- data-aos="fade-left"
-        >
+ 
 
           
         <div id="scroll-pages" className="scroll-pages" >      
@@ -314,7 +311,6 @@ return (
 
 
         </div>
-        </motion.div>
         </>
       );
 
