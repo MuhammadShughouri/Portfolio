@@ -1,5 +1,4 @@
 import React,{useState} from "react";
-import 'aos/dist/aos.css';
 import './home.scss'
 
 function Home (){
