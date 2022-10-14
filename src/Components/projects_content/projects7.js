@@ -2,12 +2,12 @@ import React from "react";
 import './projects-shop2.css'
 
 import './projects1.css'
-import shop2 from '../assets/images/33.JPG'
-import shop3 from '../assets/images/34.JPG'
-import shop4 from '../assets/images/35.JPG'
-import shop5 from '../assets/images/36.JPG'
-import shop6 from '../assets/images/37.JPG'
-import shop7 from '../assets/images/38.JPG'
+import shop2 from '../images/33.JPG'
+import shop3 from '../images/34.JPG'
+import shop4 from '../images/35.JPG'
+import shop5 from '../images/36.JPG'
+import shop6 from '../images/37.JPG'
+import shop7 from '../images/38.JPG'
 
 
 

@@ -1,9 +1,9 @@
 import React from "react";
 import './projects2.css'
-import sport from '../assets/images/29.jpg'
-import sport1 from '../assets/images/30.jpg'
-import sport2 from '../assets/images/31.jpg'
-import sport3 from '../assets/images/32.jpg'
+import sport from '../images/29.jpg'
+import sport1 from '../images/30.jpg'
+import sport2 from '../images/31.jpg'
+import sport3 from '../images/32.jpg'
 import { motion} from "framer-motion";
 import AOS from "aos";
 AOS.init();

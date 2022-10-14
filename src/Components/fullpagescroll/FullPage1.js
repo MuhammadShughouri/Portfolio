@@ -6,14 +6,14 @@ import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";
-import exterior from '../assets/images/first.png'
-import interior from '../assets/images/2.jpg'
-import shop from '../assets/images/3.jpg'
-import arch from '../assets/images/24.jpg'
-import arch_villa from '../assets/images/25.jpg'
-import arch_sport from '../assets/images/29.jpg'
-import shop2 from '../assets/images/33.JPG'
-import mhmd from '../assets/images/mhmd3.jpg'
+import exterior from '../images/1.png'
+import interior from '../images/2.jpg'
+import shop from '../images/3.jpg'
+import arch from '../images/24.jpg'
+import arch_villa from '../images/25.jpg'
+import arch_sport from '../images/29.jpg'
+import shop2 from '../images/33.JPG'
+import mhmd from '../images/mhmd3.jpg'
 
 
 AOS.init();
@@ -46,7 +46,6 @@ return (
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${exterior})`,
-        height:'100%'
 
       }
       
@@ -132,7 +131,7 @@ return (
   </div>
 
 
-          <div className="section" id="exter" style={exteri}>
+          <div className="section " id="exter" style={exteri}>
 
             <div className="container">
              
