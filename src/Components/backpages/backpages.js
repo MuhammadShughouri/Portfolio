@@ -9,7 +9,6 @@ return(
 
 
 <div>
-<Home/>
 <Full></Full>
 
 </div>
