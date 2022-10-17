@@ -219,12 +219,6 @@ right: 24px;
 bottom: -89%;
 
 }
-@media screen and (max-width:700px) {
-  .btn2{
-
-    bottom: -105%;
-  }
-}
 .btn2::before{
 
   content: "";
@@ -683,12 +677,6 @@ color: white;
   bottom: -92%;
 
  font-size: 20px;
-}
-@media screen and (max-width:700px) {
-  .inter{
-
-    bottom: -105%;
-  }
 }
 
 
