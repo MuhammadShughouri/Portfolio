@@ -1,6 +1,7 @@
 
 h3 {
   font-size: 5em;
+  text-align: center;
   color: #fff;
   font-weight: 700;
 }
@@ -12,14 +13,9 @@ h3 {
   height: 100vh;
   
 }
-@media screen and (max-width:700px) {
-  .section{
-
-    height: 100vh;
-  }
-}
 
 .fp-section {
+  text-align: center;
 }
 
 #scroll-pages{
@@ -197,7 +193,11 @@ h4{
 .container{
 
 
-
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .btn1{
@@ -218,13 +218,6 @@ position: fixed;
 right: 24px;
 bottom: -89%;
 
-}
-@media screen and (max-width:700px) {
-  .btn2{
-
-    bottom: -110%;
-  }
-  
 }
 .btn2::before{
 
@@ -684,12 +677,6 @@ color: white;
   bottom: -92%;
 
  font-size: 20px;
-}
-@media screen and (max-width:700px) {
-  .inter{
-
-    bottom: -110%;
-  }
 }
 
 
