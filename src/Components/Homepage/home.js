@@ -16,7 +16,7 @@ function Home (){
 
 
       } else {
-        document.getElementById("mySidenav").style.width = "420px";
+        document.getElementById("mySidenav").style.width = "410px";
         document.getElementById("scroll-pages").style.marginLeft="450px"
 
 
