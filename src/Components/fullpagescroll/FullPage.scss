@@ -1,7 +1,6 @@
 
 h3 {
   font-size: 5em;
-  text-align: center;
   color: #fff;
   font-weight: 700;
 }
@@ -12,6 +11,12 @@ h3 {
 .section{
   height: 100vh;
   
+}
+@media screen and (max-width:700px) {
+  .section{
+
+    height: 900px;
+  }
 }
 
 .fp-section {
@@ -192,11 +197,7 @@ h4{
 .container{
 
 
-  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
+
 }
 
 .btn1{
