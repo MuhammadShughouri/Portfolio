@@ -46,7 +46,6 @@ return (
 
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition:"fixed",
         backgroundImage: `url(${exterior})`,
 
       }
@@ -122,21 +121,19 @@ return (
  data-aos="fade-left"
         >
 
-          <div id="fullpage" className="fullpage-wrapper">
+          
         <div  id="scroll-pages">      
 
   <div className="section  " id="mhmdinfo">
-   <div >
 
-   </div>
 
 
 
   </div>
 
 
-          <div className="section" id="exter" >
-            <div >
+          <div className="section" id="exter" style={exteri}>
+            <div className="container ">
              
             
             <div className="full-line "> 
@@ -154,8 +151,10 @@ return (
 
            <div class="fofo  "> 
            <Link  className="btn1 " to="/exterior-design" >
+            <div className="mm" id="mm"> 
            <button className="btn2 animate__animated animate__pulse animate__infinite ">
             </button>
+            </div>
             </Link>
             
             </div>
@@ -319,7 +318,7 @@ return (
 
           </div>
 
-</div>
+
 
         </div>
         </motion.div>

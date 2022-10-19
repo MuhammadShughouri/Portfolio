@@ -11,7 +11,7 @@ h3 {
 }
 .section{
   height: 100vh;
-background-size: cover;  
+  
 }
 
 .fp-section {
@@ -25,43 +25,44 @@ transition: 1s;
 }
 #mhmdinfo{
 background-image: url('../assets/images/mhmd3.jpg');
+background-position: center;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 }
-// @media screen and (max-width:821px) {
-//   #mhmdinfo{
+@media screen and (max-width:821px) {
+  #mhmdinfo{
 
-//     background-image: url('../assets/images/mhmd3.jpg');
-// background-position: -720px;
+    background-image: url('../assets/images/mhmd3.jpg');
+background-position: -720px;
 
-//   }
+  }
 
-//   @media screen and (max-width:769px) {
-//     #mhmdinfo{
+  @media screen and (max-width:769px) {
+    #mhmdinfo{
   
-//       background-image: url('../assets/images/mhmd3.jpg');
-//   background-position: -600px;
+      background-image: url('../assets/images/mhmd3.jpg');
+  background-position: -600px;
 
-//     }
+    }
 
 
-//   }
+  }
   
 
-//   @media screen and (max-width:700px) {
-//     #mhmdinfo{
+  @media screen and (max-width:700px) {
+    #mhmdinfo{
   
-//       background-image: url('../assets/images/mhmd4.jpg');
-//       background-position: center;
-//       background-repeat: no-repeat;
-//       background-size: cover;
+      background-image: url('../assets/images/mhmd4.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
-//     }
+    }
 
 
-//   }
+  }
   
-// }
+}
 
 
 // @media screen and (max-width:700px) {
@@ -99,9 +100,8 @@ background-size: 100%;
 ul {
   display: inline-block !important;
   position: absolute;
-  top: 70%;
-  left: 40%;
-  transform: translate(-50%, -50%) ;
+  
+  transform: translate(-50%, -30%) ;
 
 }
 ul li a {
@@ -198,13 +198,6 @@ h4{
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
 }
-#exter{
-
-  background-image: url("../assets/images/1.png");
-  background-size: cover;
-
-}
-
 
 .btn1{
 
@@ -219,14 +212,20 @@ border-radius: 50%;
 border: #39ccc7;
 width: 70px;
 height: 70px;
-float: right;
-position: fixed;
-right: 24px;
-bottom:-680px;
+position: absolute;
+bottom: -580px;
+
+}
+
+#mm{
+
+ float: right;
+ 
 }
 @media screen and (max-width:700px) {
   .btn2{
-    bottom: -720px;
+    bottom: -710px;
+    right: -20px;
   }
 }
 .btn2::before{
@@ -683,14 +682,14 @@ bottom:-680px;
 .inter{
 text-transform: uppercase;
 color: white;
-  position:fixed;
+  position:absolute;
 bottom: -650px;
  font-size: 20px;
 }
 @media screen and (max-width:600px) {
   .inter{
 
-    bottom: -750px;
+    bottom: -720px;
   }
 }
 
