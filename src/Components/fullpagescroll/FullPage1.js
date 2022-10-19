@@ -1,6 +1,4 @@
 import React from "react";
-import {SectionsContainer, Section, Header, Footer,ScrollToTopOnMount} from 'react-fullpage';
-
 import ReactFullpage from "@fullpage/react-fullpage";
  import 'animate.css';
 import './FullPage.scss'
@@ -19,18 +17,18 @@ import mhmd from '../assets/images/mhmd3.jpg'
 
 
 AOS.init();
+const anchors = [ "abouttt","exterior-project", "interior-design", "shop-drawing","shop-drawing2","architectural-mosuqe","architectural-villa","architectural-sportclub"];
 
 class Full extends React.Component {
   render(){  
-
-    let options = {
-      sectionClassName:     'section',
-      anchors:              ['sectionOne', 'sectionTwo', 'sectionThree'],
-      scrollBar:            false,
-      navigation:           true,
-      verticalAlign:        false,
-      arrowNavigation:      true
-    };
+return (
+  <ReactFullpage
+    anchors={anchors}
+    navigation
+    
+    navigationTooltips={anchors}
+    navigat
+    
   //   onLeave={(origin, destination, direction) => {
   //     console.log("onLeave event", { origin, destination, direction });
 
@@ -40,15 +38,15 @@ class Full extends React.Component {
   // }
   
     
+    render={({ state, fullpageApi }) => {
       
       // console.log("render prop change", state, fullpageApi);
 
       const exteri={
 
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        height:'100%',
-        backgroundImage: `url(${exterior})`,
+        // backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+        // backgroundImage: `url(${exterior})`,
 
       }
       
@@ -126,11 +124,20 @@ class Full extends React.Component {
           
         <div  id="scroll-pages">      
 
-    <ScrollToTopOnMount />
-    <SectionsContainer className="container" {...options}>
-          <Section className="custom-section" >
-<div style={exteri}>
-<div className="full-line "> 
+  <div className="section  " id="mhmdinfo">
+   <div >
+
+   </div>
+
+
+
+  </div>
+
+
+          <div className="section" id="exter" >
+             <img className="mn" src={exterior}></img>
+            
+            <div className="full-line "> 
             
             <div className="info" > 
             
@@ -155,45 +162,159 @@ class Full extends React.Component {
             </button>
             </Link>
             </div>
-</div>
-
-          </Section>
-        
-        </SectionsContainer>
-
-        <SectionsContainer className="container" {...options}>
-          <Section className="custom-section" >
-<div style={inter}>
-<div className="full-line "> 
+          </div>
+          
+          <div className="section" id="img" style={inter}>
+          <div className="container"> 
+         
+            <div className="full-line1">
             
-            <div className="info" > 
-            
-           <span className="animate__animated animate__fadeInRight">
-           <h4 id="work">work</h4>
-           <h4 id="num">01</h4>
+            <div className="info animate__animated animate__fadeInRight"> 
+             
+           <span>
+           <h4   id="work">work</h4>
+           <h4 id="num">02</h4>
+
 
            </span>
-          </div>
-           </div>
-        
-<div className="d-flex justify-content-between container weke" > 
-         
-            
            
-            <div  className="inter animate__animated animate__fadeInRight" > 
-            <span >exterior design</span>
-            <h2>exterior project <br></br> Saudi Arabia</h2>
-            </div>
-              <Link  className="btn1 " to="/exterior-design" >
-           <button className="btn2 animate__animated animate__pulse animate__infinite ">
+           </div>
+           
+           <Link  className="btn3" to="/interior-design" >
+           <button className="btn4 go animate__animated animate__pulse animate__infinite">
+              
             </button>
             </Link>
+            <div  className="inter1 animate__animated animate__fadeInRight" > 
+            <span >interior design</span>
+            <h2>interior project <br></br> Turkey Istanbul</h2>
             </div>
-</div>
+          
+           </div>
+           
+           </div>
 
-          </Section>
-        
-        </SectionsContainer>
+
+          </div>
+          
+          <div className="section" id="img2" style={shopdraw}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>03</h4>
+
+           </span>
+           </div>
+           <Link   className="btn5 " to="/drawing" > 
+           <button className="btn6 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter2 animate__animated animate__fadeInRight"> 
+            <span >shop drawing</span>
+            <h2>shop drawing project <br></br> America</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
+          <div className="section" id="img2" style={shopdraw2 }>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>04</h4>
+
+           </span>
+           </div>
+           <Link   className="btn7 " to="/hall_villa" > 
+           <button className="btn8 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter6 animate__animated animate__fadeInRight"> 
+            <span >shop drawing</span>
+            <h2>Hall Villa <br></br> America</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
+          <div className="section" id="img2" style={architectural}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>05</h4>
+
+           </span>
+           </div>
+           <Link   className="btn9 " to="/mosque" > 
+           <button className="btn10 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter3 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>mosque <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+          </div>
+
+
+          <div className="section" id="img2" style={architectural_villa}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>06</h4>
+
+           </span>
+           </div>
+           <Link   className="btn11 " to="/villa" > 
+           <button className="btn12 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter4 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>VILLA <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
+          <div className="section" id="img2" style={architectural_sport}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>07</h4>
+
+           </span>
+           </div>
+           <Link   className="btn13 " to="/sport" > 
+           <button className="btn14 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter5 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>SPORT CLUB <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
 
 
 
@@ -204,8 +325,9 @@ class Full extends React.Component {
 
     }}
     
-
-  
-  
+  />
+)
+  }
+  };
 
 export default Full;
