@@ -46,6 +46,7 @@ return (
 
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition:"fixed",
         backgroundImage: `url(${exterior})`,
 
       }
