@@ -136,7 +136,7 @@ return (
 
 
           <div className="section" id="exter" >
-            <div className="container ">
+            <div >
              
             
             <div className="full-line "> 
