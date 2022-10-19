@@ -122,7 +122,7 @@ return (
  data-aos="fade-left"
         >
 
-          <div id="fullpage">
+          <div id="fullpage" className="fullpage-wrapper">
         <div  id="scroll-pages">      
 
   <div className="section  " id="mhmdinfo">

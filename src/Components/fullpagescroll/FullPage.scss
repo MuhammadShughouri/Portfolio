@@ -25,8 +25,7 @@ transition: 1s;
 }
 #mhmdinfo{
 background-image: url('../assets/images/mhmd3.jpg');
-background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%;
 }
 // @media screen and (max-width:821px) {
 //   #mhmdinfo{
@@ -201,7 +200,8 @@ h4{
 #exter{
 
   background-image: url("../assets/images/1.png");
-  background-size: cover;
+  background-size: 100%;
+  background-position-y: -40px;
 
 }
 
