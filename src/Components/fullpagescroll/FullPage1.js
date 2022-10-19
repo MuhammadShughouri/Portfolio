@@ -134,7 +134,7 @@ return (
   </div>
 
 
-          <div className="section"  style={exteri}>
+          <div className="section" id="exter"  style={exteri}>
              
             
             <div className="full-line "> 
