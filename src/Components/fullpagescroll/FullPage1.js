@@ -47,8 +47,6 @@ return (
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${exterior})`,
-        height:"100%",
-        width:'100%',
 
       }
       
@@ -123,48 +121,47 @@ return (
  data-aos="fade-left"
         >
 
-          <div id="fullpage" className="fullpage-wrapper" style={{height:'100%',position:'relative'}}>
+          
         <div  id="scroll-pages">      
 
   <div className="section  " id="mhmdinfo">
+   <div >
 
+   </div>
 
 
 
   </div>
 
 
-          <div className="section"  >
-            <div className="container " id="section-0" style={exteri }>
+          <div className="section"  style={exteri}>
+             
             
             <div className="full-line "> 
             
-            <div className="info " > 
+            <div className="info" > 
             
            <span className="animate__animated animate__fadeInRight">
            <h4 id="work">work</h4>
            <h4 id="num">01</h4>
 
            </span>
-          
+          </div>
            </div>
         
-
-           <div class="fofo  "> 
-           <Link  className="btn1 " to="/exterior-design" >
-            <div className="mm" id="mm"> 
-           <button className="btn2 animate__animated animate__pulse animate__infinite ">
-            </button>
-            </div>
-            </Link>
+<div className="d-flex justify-content-between container weke" > 
+         
             
-            </div>
+           
             <div  className="inter animate__animated animate__fadeInRight" > 
             <span >exterior design</span>
             <h2>exterior project <br></br> Saudi Arabia</h2>
             </div>
-           </div>
-           </div>
+              <Link  className="btn1 " to="/exterior-design" >
+           <button className="btn2 animate__animated animate__pulse animate__infinite ">
+            </button>
+            </Link>
+            </div>
           </div>
           
           <div className="section" id="img2" style={inter}>
@@ -321,7 +318,6 @@ return (
 
 
 
-        </div>
         </div>
         </motion.div>
         </>

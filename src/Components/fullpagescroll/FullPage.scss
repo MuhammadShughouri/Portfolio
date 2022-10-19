@@ -9,33 +9,8 @@ h3 {
 #section1 {
   color: #fff;
 }
-@media screen and (max-width:700px) {
-  
-
-#fullpage section{
-
-  background-size: cover !important;
-  background-position-y: 0 !important;
-  width: 100%;
-  height: 100vh;
-}
-}
-#fullpage .section{
-
-  background-size: cover !important;
-  background-position-y: 0 !important;
-  width: 100%;
-  height: 100vh;
-  display: block;
-}
-
-  
-
-#section-0{
-height:100% !important;
-}
-
 .section{
+  height: 100vh;
   
 }
 
@@ -148,7 +123,14 @@ ul li a {
 overflow: visible;
 visibility: visible;
 }
+.container{
+ 
+}
+ .container{
+  display: flex;
+  align-items: flex-end;
 
+}
 
 .full-line{
   width: 85%;
@@ -238,10 +220,18 @@ border-radius: 50%;
 border: #39ccc7;
 width: 70px;
 height: 70px;
-float: right;
-position: fixed;
-right: 24px;
-bottom:-680px;
+
+}
+.weke{
+height: 745px;
+overflow-y: hidden;
+
+}
+@media screen and (max-width:600px) {
+  .weke{
+
+    height:790px ;
+  }
 }
 // @media screen and (max-width:700px) {
 //   .btn2{
@@ -702,16 +692,15 @@ bottom:-680px;
 .inter{
 text-transform: uppercase;
 color: white;
-  position:fixed;
-bottom: -89%;
+ 
  font-size: 20px;
 }
-// @media screen and (max-width:600px) {
-//   .inter{
+@media screen and (max-width:600px) {
+  .inter{
 
-//     bottom: -750px;
-//   }
-// }
+    bottom: -750px;
+  }
+}
 
 .inter1{
   text-transform: uppercase;
