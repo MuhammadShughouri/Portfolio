@@ -122,7 +122,7 @@ return (
  data-aos="fade-left"
         >
 
-          
+          <div id="fullpage">
         <div  id="scroll-pages">      
 
   <div className="section  " id="mhmdinfo">
@@ -135,7 +135,7 @@ return (
   </div>
 
 
-          <div className="section" id="exter" style={exteri}>
+          <div className="section" id="exter" >
             <div className="container ">
              
             
@@ -319,7 +319,7 @@ return (
 
           </div>
 
-
+</div>
 
         </div>
         </motion.div>
