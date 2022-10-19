@@ -19,6 +19,7 @@
     "react-bootstrap-sidebar-menu": "^2.0.1",
     "react-dom": "^18.2.0",
     "react-full-page": "^0.1.12",
+    "react-fullpage": "^0.1.19",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.3",
