@@ -47,6 +47,8 @@ return (
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${exterior})`,
+        height:"100%",
+        width:'100%',
 
       }
       
@@ -121,7 +123,7 @@ return (
  data-aos="fade-left"
         >
 
-          
+          <div id="fullpage" className="fullpage-wrapper" style={{height:'100%',position:'relative'}}>
         <div  id="scroll-pages">      
 
   <div className="section  " id="mhmdinfo">
@@ -132,9 +134,9 @@ return (
   </div>
 
 
-          <div className="section" id="exter" style={exteri}>
-            <div className="container ">
-             
+          <div className="section" id="exter" >
+            <div className="container " style={exteri }>
+             <div> </div>
             
             <div className="full-line "> 
             
@@ -320,6 +322,7 @@ return (
 
 
 
+        </div>
         </div>
         </motion.div>
         </>

@@ -236,11 +236,11 @@ position: fixed;
 right: 24px;
 bottom:-680px;
 }
-@media screen and (max-width:700px) {
-  .btn2{
-    bottom: -720px;
-  }
-}
+// @media screen and (max-width:700px) {
+//   .btn2{
+//     bottom: -720px;
+//   }
+// }
 .btn2::before{
 
   content: "";
@@ -696,15 +696,15 @@ bottom:-680px;
 text-transform: uppercase;
 color: white;
   position:fixed;
-bottom: -650px;
+bottom: -89%;
  font-size: 20px;
 }
-@media screen and (max-width:600px) {
-  .inter{
+// @media screen and (max-width:600px) {
+//   .inter{
 
-    bottom: -750px;
-  }
-}
+//     bottom: -750px;
+//   }
+// }
 
 .inter1{
   text-transform: uppercase;
