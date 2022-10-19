@@ -199,12 +199,7 @@ h4{
 }
 .container{
 
-
-  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
+height: 812px;
 }
 
 .btn1{
@@ -215,11 +210,8 @@ h4{
   text-decoration: none;
 }
 #exter{
-height: 100%;
 }
-#exter1{
-  height: 100%;
-  }
+
   
 
 .btn2{
