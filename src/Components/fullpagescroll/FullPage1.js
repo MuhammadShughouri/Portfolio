@@ -52,14 +52,14 @@ return (
       
       const inter={
 
-        backgroundRepeat: "repeat",
+        backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${interior})`,
 
       }
       const shopdraw={
 
-        backgroundRepeat: "repeat",
+        backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${shop})`,
 
@@ -164,7 +164,7 @@ return (
             </div>
           </div>
           
-          <div className="section" id="img2" style={inter}>
+          <div className="section" id="img" style={inter}>
           <div className="container"> 
          
             <div className="full-line1">
