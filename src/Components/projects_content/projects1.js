@@ -30,11 +30,7 @@ return(
 <motion.div
     data-aos="fade-right"
   >
-    <div class="header">
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>  
-</div>
+  
 <div className=""> 
     <div id="all" className="exter " style={interstyle}>
 

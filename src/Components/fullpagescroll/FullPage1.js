@@ -224,7 +224,7 @@ return (
            
             <div  className="inter2 animate__animated animate__fadeInRight"> 
             <span >shop drawing</span>
-            <h2>shop drawing project <br></br> America</h2>
+            <h2>shop drawing <br></br> America</h2>
             </div>
            </div>
            </div>
