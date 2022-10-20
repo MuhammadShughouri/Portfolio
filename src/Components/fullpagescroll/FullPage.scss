@@ -10,13 +10,30 @@ h3 {
   color: #fff;
 }
 .section{
-height: 100vh;  
+height:100vh;  
 }
-@media screen and (max-width:700px) {
-  .section{
+:root {
+  --app-height: 100%;
+}
 
-    height:92vh !important }
+html,
+body {
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   width: 100vw;
+   height: 100vh;
+   height: var(--app-height);
 }
+// @media screen and (max-width:700px) {
+//   .section{
+
+//     height:100vh !important;
+//     height: -webkit-fill-available ;
+  
+  
+//   }
+// }
 
 .fp-section {
   text-align: center;
@@ -220,7 +237,7 @@ height: 70px;
 float: right;
 position: fixed;
 right: 24px;
-top: 28%;
+bottom:-89%;
 }
 // @media screen and (max-width:700px) {
 //   .btn2{
@@ -290,7 +307,8 @@ top: 28%;
   height: 70px;
   position: fixed;
  right: 24px;
-top: 60%; 
+ bottom: -189%;
+ 
   }
   .btn4::before{
 
@@ -681,7 +699,7 @@ top: 60%;
 text-transform: uppercase;
 color: white;
   position:fixed;
-top: 28%;
+bottom: -89%;
  font-size: 20px;
 }
 // @media screen and (max-width:600px) {
@@ -695,8 +713,7 @@ top: 28%;
   text-transform: uppercase;
   color: white;
     position:fixed;
-    top:60%;
-    left: 60px;
+    bottom: -192%;
   
    font-size: 20px;
   }

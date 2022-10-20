@@ -1,7 +1,5 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
-
  import 'animate.css';
 import './FullPage.scss'
 import {Link} from "react-router-dom";
@@ -19,9 +17,24 @@ import mhmd from '../assets/images/mhmd3.jpg'
 
 
 AOS.init();
+const anchors = [ "abouttt","exterior-project", "interior-design", "shop-drawing","shop-drawing2","architectural-mosuqe","architectural-villa","architectural-sportclub"];
 
-function Full () {
- 
+class Full extends React.Component {
+  
+  render(){  
+    const appHeight = () => {
+      const doc = document.documentElement
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+  }
+  window.addEventListener('resize', appHeight)
+  appHeight()
+return (
+  <ReactFullpage
+    anchors={anchors}
+    navigation
+    
+    navigationTooltips={anchors}
+    navigat
     
   //   onLeave={(origin, destination, direction) => {
   //     console.log("onLeave event", { origin, destination, direction });
@@ -32,6 +45,7 @@ function Full () {
   // }
   
     
+    render={({ state, fullpageApi }) => {
       
       // console.log("render prop change", state, fullpageApi);
 
@@ -49,7 +63,7 @@ function Full () {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${interior})`,
-height:'100%'
+
       }
       const shopdraw={
 
@@ -118,18 +132,20 @@ height:'100%'
           
         <div  id="scroll-pages">      
 
-  
+  <div className="section  " id="mhmdinfo">
+   <div >
 
-        <Fullpage>
+   </div>
 
-<FullPageSections>
 
-  <FullpageSection style={{
-   
-  }}>
-<div style={exteri}>
 
-<div className="full-line "> 
+  </div>
+
+
+          <div className="section" id="exter"  >
+             
+            <div style={exteri}> 
+            <div className="full-line "> 
             
             <div className="info" > 
             
@@ -154,15 +170,12 @@ height:'100%'
             </button>
             </Link>
             </div>
-
-</div>
-
-  </FullpageSection>
-  <FullpageSection style={{
-  
-  }}>
-<div style={inter}> 
-<div className="full-line1">
+          </div>
+          </div>
+          <div className="section" id="img" style={inter}>
+          <div className="container"> 
+         
+            <div className="full-line1">
             
             <div className="info animate__animated animate__fadeInRight"> 
              
@@ -189,17 +202,128 @@ height:'100%'
            
            </div>
 
+
+          </div>
           
+          <div className="section" id="img2" style={shopdraw}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>03</h4>
 
-  </FullpageSection>
-  <FullpageSection style={{
-    backgroundColor: 'firebrick',
-    padding: '1em',
-  }}>3</FullpageSection>
+           </span>
+           </div>
+           <Link   className="btn5 " to="/drawing" > 
+           <button className="btn6 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter2 animate__animated animate__fadeInRight"> 
+            <span >shop drawing</span>
+            <h2>shop drawing project <br></br> America</h2>
+            </div>
+           </div>
+           </div>
 
-</FullPageSections>
 
-</Fullpage>
+          </div>
+
+          <div className="section" id="img2" style={shopdraw2 }>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>04</h4>
+
+           </span>
+           </div>
+           <Link   className="btn7 " to="/hall_villa" > 
+           <button className="btn8 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter6 animate__animated animate__fadeInRight"> 
+            <span >shop drawing</span>
+            <h2>Hall Villa <br></br> America</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
+          <div className="section" id="img2" style={architectural}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>05</h4>
+
+           </span>
+           </div>
+           <Link   className="btn9 " to="/mosque" > 
+           <button className="btn10 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter3 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>mosque <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+          </div>
+
+
+          <div className="section" id="img2" style={architectural_villa}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>06</h4>
+
+           </span>
+           </div>
+           <Link   className="btn11 " to="/villa" > 
+           <button className="btn12 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter4 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>VILLA <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
+          <div className="section" id="img2" style={architectural_sport}>
+          <div className="container"> 
+            <div className="full-line2"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'black'}} id="work">work</h4>
+           <h4 id="num" style={{color:'black'}}>07</h4>
+
+           </span>
+           </div>
+           <Link   className="btn13 " to="/sport" > 
+           <button className="btn14 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter5 animate__animated animate__fadeInRight"> 
+            <span >architectural design</span>
+            <h2>SPORT CLUB <br></br> damascus/syria</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
+
 
 
         </div>
@@ -207,11 +331,11 @@ height:'100%'
         </>
       );
 
+    }}
     
-    
-
-
-  
+  />
+)
+  }
   };
 
 export default Full;
