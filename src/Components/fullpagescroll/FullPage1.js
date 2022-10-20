@@ -147,7 +147,8 @@ return (
           <div className="section" id="exter"  >
              
             <div style={exteri}> 
-            <div className="full-line " style={{position:'relative',left:'140px'}}> 
+            <div className="container"> 
+            <div className="full-line " > 
             
             <div className="info" > 
             
@@ -158,7 +159,7 @@ return (
            </span>
           </div>
            </div>
-        
+           </div>
 <div className="d-flex justify-content-between container weke" > 
          
             
