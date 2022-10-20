@@ -17,9 +17,9 @@ function Projects_exterior(){
 return(
 
 <> 
-
-<div
-
+<main> 
+<div 
+className="body1"
 
 >
 
@@ -44,6 +44,7 @@ navigate('/interior-design')
 
 
 </div>
+</main>
 </>
 )
 

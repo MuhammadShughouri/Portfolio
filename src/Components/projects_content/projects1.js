@@ -11,6 +11,9 @@ AOS.init();
 
 
 function Projects1(){
+
+
+
   
 const interstyle={
     backgroundRepeat: "no-repeat",
@@ -27,8 +30,13 @@ return(
 <motion.div
     data-aos="fade-right"
   >
-<div > 
-    <div id="all" className="exter" style={interstyle}>
+    <div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+<div className=""> 
+    <div id="all" className="exter " style={interstyle}>
 
     </div>
     

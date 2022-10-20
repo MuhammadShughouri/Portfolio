@@ -28,6 +28,8 @@ class Full extends React.Component {
   }
   window.addEventListener('resize', appHeight)
   appHeight()
+
+  
 return (
   <ReactFullpage
     anchors={anchors}
@@ -124,13 +126,13 @@ return (
   
       return (
         <>
-        
+        <main> 
         <motion.div
  data-aos="fade-left"
-        >
+>
 
           
-        <div  id="scroll-pages">      
+        <div  id="scroll-pages" >      
 
   <div className="section  " id="mhmdinfo">
    <div >
@@ -145,11 +147,11 @@ return (
           <div className="section" id="exter"  >
              
             <div style={exteri}> 
-            <div className="full-line "> 
+            <div className="full-line " style={{position:'relative',left:'140px'}}> 
             
             <div className="info" > 
             
-           <span className="animate__animated animate__fadeInRight">
+           <span className="animate__animated animate__fadeInRight" >
            <h4 id="work">work</h4>
            <h4 id="num">01</h4>
 
@@ -166,7 +168,7 @@ return (
             <h2>exterior project <br></br> Saudi Arabia</h2>
             </div>
               <Link  className="btn1 " to="/exterior-design" >
-           <button className="btn2 animate__animated animate__pulse animate__infinite ">
+           <button  className="btn2 animate__animated animate__pulse animate__infinite ">
             </button>
             </Link>
             </div>
@@ -328,6 +330,7 @@ return (
 
         </div>
         </motion.div>
+        </main>
         </>
       );
 
