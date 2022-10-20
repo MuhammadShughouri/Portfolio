@@ -16,7 +16,7 @@ h3 {
 @media screen and (max-width:700px) {
   .section{
 
-    height: 96vh !important;
+    height: 94vh !important;
   }
 }
 
@@ -222,13 +222,13 @@ height: 70px;
 float: right;
 position: fixed;
 right: 24px;
-bottom:-680px;
+bottom:-89%;
 }
-@media screen and (max-width:700px) {
-  .btn2{
-    bottom: -700px;
-  }
-}
+// @media screen and (max-width:700px) {
+//   .btn2{
+//     bottom: -700px;
+//   }
+// }
 .btn2::before{
 
   content: "";
@@ -684,15 +684,15 @@ bottom:-680px;
 text-transform: uppercase;
 color: white;
   position:fixed;
-bottom: -650px;
+bottom: -89%;
  font-size: 20px;
 }
-@media screen and (max-width:600px) {
-  .inter{
+// @media screen and (max-width:600px) {
+//   .inter{
 
-    bottom: -700px;
-  }
-}
+//     bottom: -700px;
+//   }
+// }
 
 .inter1{
   text-transform: uppercase;
