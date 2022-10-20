@@ -218,19 +218,9 @@ position: fixed;
 right: 24px;
 bottom:-680px;
 }
-.mn{
-
-  width: 100%;
-  height: 100%;
-}
-@media screen and (max-width:600px) {
-  .mn{
-    height: 100% !important;
-  }
-}
 @media screen and (max-width:700px) {
   .btn2{
-    bottom: -720px;
+    bottom: -700px;
   }
 }
 .btn2::before{
@@ -694,7 +684,7 @@ bottom: -650px;
 @media screen and (max-width:600px) {
   .inter{
 
-    bottom: -750px;
+    bottom: -700px;
   }
 }
 

@@ -6,7 +6,8 @@ import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";
-import exterior from '../assets/images/1.png'
+import exterior from '../assets/images/07.png'
+
 import interior from '../assets/images/2.jpg'
 import shop from '../assets/images/3.jpg'
 import arch from '../assets/images/24.jpg'
@@ -44,9 +45,9 @@ return (
 
       const exteri={
 
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "cover",
-        // backgroundImage: `url(${exterior})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundImage: `url(${exterior})`,
 
       }
       
@@ -134,8 +135,8 @@ return (
   </div>
 
 
-          <div className="section" id="exter" >
-             <img className="mn" src={exterior}></img>
+          <div className="section" id="exter"  style={exteri}>
+             
             
             <div className="full-line "> 
             
