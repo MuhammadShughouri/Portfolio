@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";
-import exterior from '../assets/images/1.png'
+import exterior from '../assets/images/1.jpg'
 import interior from '../assets/images/2.jpg'
 import shop from '../assets/images/3.jpg'
 import arch from '../assets/images/24.jpg'
@@ -248,7 +248,7 @@ return (
            
             <div  className="inter6 animate__animated animate__fadeInRight"> 
             <span >shop drawing</span>
-            <h2>Hall Villa <br></br> America</h2>
+            <h2>Hall Villa <br></br>UAE</h2>
             </div>
            </div>
            </div>
@@ -295,7 +295,7 @@ return (
            
             <div  className="inter4 animate__animated animate__fadeInRight"> 
             <span >architectural design</span>
-            <h2>VILLA <br></br> damascus/syria</h2>
+            <h2>VILLA <br></br>Saudi Arabia</h2>
             </div>
            </div>
            </div>
@@ -319,7 +319,7 @@ return (
            
             <div  className="inter5 animate__animated animate__fadeInRight"> 
             <span >architectural design</span>
-            <h2>SPORT CLUB <br></br> damascus/syria</h2>
+            <h2>SPORT CLUB <br></br>Egypt</h2>
             </div>
            </div>
            </div>

@@ -1,6 +1,7 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import './projects1.css'
-import exterior from '../assets/images/1.png'
+import exterior from '../assets/images/1.jpg'
 import exterior1 from '../assets/images/4.png'
 import exterior2 from '../assets/images/05.png'
 import exterior3 from '../assets/images/6.png'
@@ -88,12 +89,8 @@ return(
 <div className="col-md-6 py-2" >
     <div className="contaier1">
 <div className="img-"> 
-
-
-        <img  src={exterior1} width="100%" >
-
-            
-        </img>
+<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={exterior2}     effect="blur"/>
+  
         <span  className="hov">1</span>
        
        
