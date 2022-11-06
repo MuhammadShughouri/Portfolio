@@ -7,7 +7,7 @@ import { motion} from 'framer-motion'
 import 'aos/dist/aos.css';
 import AOS from "aos";
 import exterior from '../assets/images/1.jpg'
-import interior from '../assets/images/2.jpg'
+import interior from '../assets/images/ff.jpg'
 import shop from '../assets/images/3.jpg'
 import arch from '../assets/images/24.jpg'
 import arch_villa from '../assets/images/25.jpg'
