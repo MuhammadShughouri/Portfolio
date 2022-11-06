@@ -2,10 +2,10 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './projects1.css'
 import exterior from '../assets/images/1.jpg'
-import exterior1 from '../assets/images/4.png'
-import exterior2 from '../assets/images/05.png'
-import exterior3 from '../assets/images/6.png'
-import exterior4 from '../assets/images/7.png'
+import exterior1 from '../assets/images/4.jpg'
+import exterior2 from '../assets/images/5.jpg'
+import exterior3 from '../assets/images/6.jpg'
+import exterior4 from '../assets/images/7.jpg'
 import { motion} from 'framer-motion'
 import AOS from "aos";
 AOS.init();
