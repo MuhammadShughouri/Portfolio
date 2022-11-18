@@ -94,7 +94,7 @@ return(
 <div className="col-md-6 py-2" >
     <div className="contaier1">
 <div className="img-"> 
-<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={{lood}}  effect="blur"/>
+<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={lood}  effect="blur"/>
   
         <span  className="hov">1</span>
        
