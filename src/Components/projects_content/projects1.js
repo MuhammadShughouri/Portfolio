@@ -1,11 +1,15 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './projects1.css'
-import exterior from '../assets/images/1.jpg'
+import exterior from '../assets/images/1.png'
 import exterior1 from '../assets/images/4.jpg'
 import exterior2 from '../assets/images/5.jpg'
 import exterior3 from '../assets/images/6.jpg'
 import exterior4 from '../assets/images/7.jpg'
+import lod from '../assets/images/lod.gif'
+import lood from '../assets/images/lood.gif'
+
+
 import { motion} from 'framer-motion'
 import AOS from "aos";
 AOS.init();
@@ -22,6 +26,7 @@ const interstyle={
     backgroundImage: `url(${exterior})`,
 
 }
+
 
 return(
 <>
@@ -89,7 +94,7 @@ return(
 <div className="col-md-6 py-2" >
     <div className="contaier1">
 <div className="img-"> 
-<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={exterior2}     effect="blur"/>
+<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={{lood}}  effect="blur"/>
   
         <span  className="hov">1</span>
        

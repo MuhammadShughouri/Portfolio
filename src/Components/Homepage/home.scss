@@ -95,6 +95,8 @@ color: #39ccc7;
   }
 
 #spa1{
+  height: 40px;
+  width: 30px;
   position: relative;
   visibility: hidden;
   top: 345px;
@@ -135,6 +137,8 @@ background-color:#39ccc7;
 @media screen and (max-width: 820px){
   #spa1{
     top: -25px;
+    height: 40px;
+    width: 40px;
     left: 8px;
     z-index:1;
   }
