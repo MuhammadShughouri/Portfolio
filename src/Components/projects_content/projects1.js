@@ -116,8 +116,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-<LazyLoadImage src={exterior2} width={'100%'} placeholderSrc={lood}  effect="blur"/>
-        <span  className="hov">2</span>
+<ProgressiveImage src={exterior2}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">2</span>
         </div>
 
     </div>
@@ -127,8 +130,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-<LazyLoadImage src={exterior3} width={'100%'} placeholderSrc={lood}  effect="blur"/>
-        <span  className="hov">3</span>
+<ProgressiveImage src={exterior3}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">3</span>
 
         </div>
 
@@ -139,8 +145,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-" > 
-<LazyLoadImage src={exterior4} width={'100%'} placeholderSrc={lood}  effect="blur"/>
-        <span  className="hov">4</span>
+<ProgressiveImage src={exterior4}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">4</span>
         </div>
 
 
