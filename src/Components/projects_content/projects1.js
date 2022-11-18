@@ -12,6 +12,7 @@ import lood from '../assets/images/looc.gif'
 
 import { motion} from 'framer-motion'
 import AOS from "aos";
+import ProgressiveImage from "react-progressive-image";
 AOS.init();
 
 
@@ -94,8 +95,12 @@ return(
 <div className="col-md-6 py-2" >
     <div className="contaier1">
 <div className="img-"> 
-<LazyLoadImage src={exterior1} width={'100%'} placeholderSrc={lood}  effect="blur"/>
-  
+<ProgressiveImage src={exterior1}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
+
         <span  className="hov">1</span>
        
        
