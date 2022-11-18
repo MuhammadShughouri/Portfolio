@@ -1,6 +1,8 @@
 import React from "react";
 import './projects1.css'
 import shopdrawing from '../assets/images/12.jpg'
+import ProgressiveImage from "react-progressive-image";
+import lood from '../assets/images/looc.gif'
 
 import { motion} from 'framer-motion'
 import Aos from "aos";
@@ -78,10 +80,11 @@ data-aos="fade-right"
 <div className="img-"> 
 
 
-        <img  src={shopdrawing} width="100%" >
-
-            
-        </img>
+<ProgressiveImage src={shopdrawing}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">1</span>
        
        

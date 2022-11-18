@@ -14,6 +14,7 @@ import arch_villa from '../assets/images/25.jpg'
 import arch_sport from '../assets/images/29.jpg'
 import shop2 from '../assets/images/33.JPG'
 import mhmd from '../assets/images/mhmd3.jpg'
+import { TypeAnimation } from 'react-type-animation';
 
 
 AOS.init();

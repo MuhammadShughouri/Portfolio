@@ -1,5 +1,7 @@
 import React from "react";
 import 'aos/dist/aos.css';
+import pdf from '../assets/images/mhmdpdf.pdf'
+
 function Projectsside(){
 
 
@@ -111,6 +113,7 @@ Focused</h3>
 
 <p style={{fontSize:"18px"}} className="py-5">Currently I am a freelance architectural designer, working with a variety of clients.</p>
 <p style={{fontSize:"16px"}} className="py-4">The main goal in my work is to reach the main goal of the client and work to develop the level of work within the common group of engineers and experts</p>
+<p className=" py-5 m-4"> <a className="resume" id="resume" href={pdf} target='_blank'>view resume</a></p>
 
 
 </div>

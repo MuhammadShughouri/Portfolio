@@ -6,6 +6,9 @@ import interior2 from '../assets/images/9.jpg'
 import interior3 from '../assets/images/10.jpg'
 import interior4 from '../assets/images/11.jpg'
 import { motion} from "framer-motion";
+import ProgressiveImage from "react-progressive-image";
+import lood from '../assets/images/looc.gif'
+
 import AOS from "aos";
 AOS.init();
 function Projects2(){
@@ -85,10 +88,11 @@ return(
 <div className="img-"> 
 
 
-        <img  src={interior1} width="100%" >
-
-            
-        </img>
+<ProgressiveImage src={interior1}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">1</span>
        
        
@@ -104,7 +108,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={interior2} width="100%"></img>
+<ProgressiveImage src={interior2}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">2</span>
         </div>
 
@@ -115,7 +123,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={interior3} width="100%"></img>
+<ProgressiveImage src={interior3}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">3</span>
 
         </div>
@@ -127,7 +139,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={interior4} width="100%"></img>
+<ProgressiveImage src={interior4}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">4</span>
         </div>
 

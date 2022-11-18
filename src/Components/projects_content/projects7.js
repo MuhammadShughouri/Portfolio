@@ -8,7 +8,9 @@ import shop4 from '../assets/images/35.JPG'
 import shop5 from '../assets/images/36.JPG'
 import shop6 from '../assets/images/37.JPG'
 import shop7 from '../assets/images/38.JPG'
+import ProgressiveImage from "react-progressive-image";
 
+import lood from '../assets/images/looc.gif'
 
 
 
@@ -88,10 +90,11 @@ data-aos="fade-right"
 <div className="img- border"> 
 
 
-        <img  src={shop2} width="100%" >
-
-            
-        </img>
+<ProgressiveImage src={shop2}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">1</span>
        
        
@@ -107,8 +110,11 @@ data-aos="fade-right"
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img- border"> 
-        <img src={shop3} width="100%"></img>
-        <span  className="hov">2</span>
+<ProgressiveImage src={shop3}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">2</span>
         </div>
 
     </div>
@@ -118,8 +124,11 @@ data-aos="fade-right"
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img- border"> 
-        <img src={shop4} width="100%"></img>
-        <span  className="hov">3</span>
+<ProgressiveImage src={shop4}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' height='576px' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">3</span>
 
         </div>
 
@@ -130,21 +139,11 @@ data-aos="fade-right"
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img- border" > 
-        <img src={shop5} width="100%" height='760px'></img>
-        <span  className="hov">4</span>
-        </div>
-
-
-    </div>
-
-
-</div>
-
-<div className="col-md-6 py-2">
-    <div className="contaier1">
-<div className="img- border" > 
-        <img src={shop6} width="100%"></img>
-        <span  className="hov">5</span>
+<ProgressiveImage src={shop5}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">4</span>
         </div>
 
 
@@ -156,8 +155,27 @@ data-aos="fade-right"
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img- border" > 
-        <img src={shop7} width="100%" ></img>
-        <span  className="hov">6</span>
+<ProgressiveImage src={shop6}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' height='660px' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">5</span>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div className="col-md-6 py-2">
+    <div className="contaier1">
+<div className="img- border" > 
+<ProgressiveImage src={shop7}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">6</span>
         </div>
 
 

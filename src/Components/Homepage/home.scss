@@ -216,6 +216,27 @@ top: 380px;
 
 
 
+.resume{
+position: relative;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 200px;
+}
+#resume{
+
+  position: relative;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid black;
+  text-decoration: none;
+  top: 200px;
+  left: 50px;
+}
+#resume:hover{
+
+color: #39ccc7;
+border-color: #39ccc7;
+
+}
 
 
 
@@ -382,10 +403,10 @@ transition-delay: 0.3s;
 }
 
 
-a:hover::after{
+// a:hover::after{
 
-  width: 50px;
-}
+//   width: 50px;
+// }
 
 
 a:focus{
@@ -395,19 +416,19 @@ a:focus{
   
 }
 
-a:focus::after{
+// a:focus::after{
 
-  content: '';
-  position: absolute;
-background-color:#39ccc7;
-  width: 50px;
-  height: 2px;
-transform:translateY(35px) translateX(-58px);
+//   content: '';
+//   position: absolute;
+// background-color:#39ccc7;
+//   width: 50px;
+//   height: 2px;
+// transform:translateY(35px) translateX(-58px);
 
 
-transition: 0.2s;
-transition-delay: 0.3s;
-}
+// transition: 0.2s;
+// transition-delay: 0.3s;
+// }
 
 
 }

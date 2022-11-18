@@ -6,6 +6,9 @@ import arch2 from '../assets/images/19.jpg'
 import arch3 from '../assets/images/20.jpg'
 import arch4 from '../assets/images/21.jpg'
 import { motion} from "framer-motion";
+import ProgressiveImage from "react-progressive-image";
+import lood from '../assets/images/looc.gif'
+
 import AOS from "aos";
 AOS.init();
 function Projects2(){
@@ -84,10 +87,11 @@ return(
 <div className="img-"> 
 
 
-        <img  src={arch1} width="100%" >
-
-            
-        </img>
+<ProgressiveImage src={arch1}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>
         <span  className="hov">1</span>
        
        
@@ -103,8 +107,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={arch2} width="100%"></img>
-        <span  className="hov">2</span>
+<ProgressiveImage src={arch2}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">2</span>
         </div>
 
     </div>
@@ -114,8 +121,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={arch3} width="100%"></img>
-        <span  className="hov">3</span>
+<ProgressiveImage src={arch3}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">3</span>
 
         </div>
 
@@ -126,8 +136,11 @@ return(
 <div className="col-md-6 py-2">
     <div className="contaier1">
 <div className="img-"> 
-        <img src={arch4} width="100%"></img>
-        <span  className="hov">4</span>
+<ProgressiveImage src={arch4}  placeholder={lood}>
+  {(src, loading) => (
+    <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
+  )}
+</ProgressiveImage>        <span  className="hov">4</span>
         </div>
 
 
