@@ -15,7 +15,7 @@
 />
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>React-fullpage example</title>
+<title>Muhammad Shughouri portfolio</title>
 <meta name="author" content="Alvaro Trigo Lopez" />
 <meta name="description" content="react-fullpage.js. Official React.js component for fullPage.js. An easy to use wrapper for your react application.">
 <meta name="keywords" content="fullpage, react wrapper,react.js,react-fullpage,react-component,adapter,component,react,sections,slides,scrolling,snap,snapping,scroll">
@@ -53,8 +53,20 @@
    
 
   <!-- fullpage.js stylesheet -->
+  <script type="text/javascript">
   
-    <title>portofolio</title>
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+    <title></title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -93,7 +93,7 @@ return(
  
 <div >
    <div className="col">
-<div>  
+<div style={{height:"49px"}}>  
 <button  id="sp1" className="spa ss"  onClick={()=>{
 
 openNav()

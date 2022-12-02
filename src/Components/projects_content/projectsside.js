@@ -83,7 +83,7 @@ return(
  
 <div   >
    <div className="col">
-<div  >  
+<div  style={{height:"49px"}}>  
 <button  id="sp1" className="spa ss"  onClick={()=>{
 
 openNav()
@@ -104,7 +104,7 @@ closeNav()
 services()
 
 }}
- className="er active" >About</a>
+ className="er active" style={{cursor:'pointer'}}>About</a>
 <div id="About">
 <h3 className="py-1 col-md-2" id="p1">Creative<br/>
 Passionate<br/>
