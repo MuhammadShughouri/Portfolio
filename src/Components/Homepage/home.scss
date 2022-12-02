@@ -227,6 +227,7 @@ font-size: 200px;
   font-size: 16px;
   font-weight: 800;
   border: 1px solid black;
+  border-radius:30px;
   text-decoration: none;
   top: 200px;
   left: 65px;
@@ -236,7 +237,11 @@ font-size: 200px;
 
 color: #39ccc7;
 border-color: #39ccc7;
+transform: rotateY(180deg) !important;
+}
+.resume:hover{
 
+  transform: rotate(360deg) !important;
 }
 
 

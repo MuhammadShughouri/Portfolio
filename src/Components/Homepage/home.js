@@ -105,16 +105,19 @@ closeNav()
 }}></button>
  </div>
  </div>
+ 
 <div   id="mySidenav" class="sidenav " style={{overflowY:"auto"}}>
-  
-  <div   id="myDIV" className="we offset-md-1 custom"> 
-  <div   className=""> 
 
+  <div   id="myDIV" className="we offset-md-1 custom"> 
+  
+  <div   className=""> 
   <a style={{cursor:"pointer"}}  onClick={()=>{
 services()
 
   }}
+  
    className="er active "  >About</a>
+
  <div id="About">
 <h3 className="py-1 col-md-2" id="p1">Creative<br/>
 Passionate<br/>

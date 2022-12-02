@@ -771,7 +771,8 @@ bottom: -89%;
 
 .fp-watermark{
 
-  visibility: hidden;
+  visibility: hidden !important;
+ 
 }
 .me{
   color: black;
