@@ -461,13 +461,14 @@ ul {
   display: flex !important;
   position: relative;
   top: 30rem;
-  left: 9rem;
+  left: 11rem;
   transform: translate(-50%, -50%); 
 }
 
 @media screen and (max-width: 820px){
 ul{
 top: 34rem !important;
+left: 9.6rem;
 
 
 }
