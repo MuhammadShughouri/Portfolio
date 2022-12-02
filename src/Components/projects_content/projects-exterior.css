@@ -124,8 +124,8 @@ transform: rotate(+386deg) !important;
                                             @media screen and (max-width: 820px)
                                             {
                         .next{
-                        top: 100px;
-                        right: 60px ;
+                        top: 12px;
+                        right: 100px ;
                         transform: rotate(-360deg) !important;
                         z-index: 4 ;
                         
