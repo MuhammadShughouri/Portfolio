@@ -57,7 +57,6 @@ return (
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${exterior})`,
-        height:'100%'
 
       }
       
@@ -145,70 +144,52 @@ return (
   </div>
 
 
-          <div className="section" id="exter"  >
-             
-            <div style={exteri}> 
-            <div className="container"> 
-            <div className="full-line " > 
-            
-            <div className="info" > 
-            
-           <span className="animate__animated animate__fadeInRight" >
-           <h4 id="work">work</h4>
-           <h4 id="num">01</h4>
-
-           </span>
-          </div>
-           </div>
-           </div>
-<div className="d-flex justify-content-between container weke" > 
-         
-            
-           
-            <div  className="inter animate__animated animate__fadeInRight" > 
-            <span >exterior design</span>
-            <h2>exterior project <br></br> Saudi Arabia</h2>
-            </div>
-              <Link  className="btn1 " to="/exterior-design" >
-           <button  className="btn2 animate__animated animate__pulse animate__infinite ">
-            </button>
-            </Link>
-            </div>
-          </div>
-          </div>
-          <div className="section" id="img" style={inter}>
+  <div className="section" id="img2" style={exteri}>
           <div className="container"> 
-         
-            <div className="full-line1">
-            
+            <div className="full-line1"> 
             <div className="info animate__animated animate__fadeInRight"> 
-             
            <span>
-           <h4   id="work">work</h4>
-           <h4 id="num">02</h4>
-
+           <h4 style={{color:'white'}} id="work">work</h4>
+           <h4 id="num" style={{color:'white'}}>01</h4>
 
            </span>
-           
            </div>
+           <Link   className="btn1 " to="/exterior-design" > 
+           <button className="btn2 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
            
-           <Link  className="btn3" to="/interior-design" >
-           <button className="btn4 go animate__animated animate__pulse animate__infinite">
-              
-            </button>
-            </Link>
-            <div  className="inter1 animate__animated animate__fadeInRight" > 
-            <span >interior design</span>
-            <h2>interior project <br></br> Turkey Istanbul</h2>
+            <div  className="inter animate__animated animate__fadeInRight"> 
+            <span >Exterior Design</span>
+            <h2>Exterior Design <br></br>Saudi Arabia</h2>
             </div>
-          
            </div>
-           
            </div>
 
 
           </div>
-          
+          <div className="section" id="img2" style={inter}>
+          <div className="container"> 
+            <div className="full-line1"> 
+            <div className="info animate__animated animate__fadeInRight"> 
+           <span>
+           <h4 style={{color:'white'}} id="work">work</h4>
+           <h4 id="num" style={{color:'white'}}>02</h4>
+
+           </span>
+           </div>
+           <Link   className="btn3 " to="/interior-design" > 
+           <button className="btn4 animate__animated animate__pulse animate__infinite "></button>
+             </Link>
+           
+            <div  className="inter1 animate__animated animate__fadeInRight"> 
+            <span >Interior Design</span>
+            <h2>Interior Design <br></br>Turkey Istanbul</h2>
+            </div>
+           </div>
+           </div>
+
+
+          </div>
           <div className="section" id="img2" style={shopdraw}>
           <div className="container"> 
             <div className="full-line2"> 

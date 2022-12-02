@@ -105,7 +105,7 @@ closeNav()
 }}></button>
  </div>
  </div>
-<div   id="mySidenav" class="sidenav " >
+<div   id="mySidenav" class="sidenav " style={{overflowY:"auto"}}>
   
   <div   id="myDIV" className="we offset-md-1 custom"> 
   <div   className=""> 
@@ -133,7 +133,7 @@ Focused</h3>
   <a style={{cursor:"pointer"}} onClick={()=>{
     about()
   }} className="er" >Services</a>
-<div id="services"> 
+<div id="services" > 
 <div className="services-menu">
 <div className="row ">
 <div className="col-md-6 py-3">
@@ -178,10 +178,10 @@ Focused</h3>
 </div>
   </div>
 
-  <div className=""> 
+  {/* <div className=""> 
   <a className="er" href="#">Contact</a>
   
-  </div>
+  </div> */}
 
   </div>
   <footer  className="social">
