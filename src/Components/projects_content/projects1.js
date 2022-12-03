@@ -6,7 +6,7 @@ import exterior1 from '../assets/images/1.jpg'
 import exterior2 from '../assets/images/5.jpg'
 import exterior3 from '../assets/images/6.jpg'
 import lod from '../assets/images/lod.gif'
-import lood from '../assets/images/lood.gif'
+import lood from '../assets/images/looc.gif'
 
 
 import { motion} from 'framer-motion'

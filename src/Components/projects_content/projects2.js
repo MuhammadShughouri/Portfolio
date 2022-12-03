@@ -7,7 +7,7 @@ import interior3 from '../assets/images/10.jpg'
 import interior4 from '../assets/images/11.jpg'
 import { motion} from "framer-motion";
 import ProgressiveImage from "react-progressive-image";
-import lood from '../assets/images/lood.gif'
+import lood from '../assets/images/looc.gif'
 
 import AOS from "aos";
 AOS.init();
