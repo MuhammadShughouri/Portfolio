@@ -1,12 +1,12 @@
 import React,{useState} from "react";
 import './home.scss'
 import pdf from '../assets/images/mhmdpdf.pdf'
+import { refresh } from "aos";
 function Home (){
   
 
   function openNav() {
-
-
+ 
     const mq = window.matchMedia( "(max-width: 819px)" );
     if (mq.matches) {
       document.getElementById("mySidenav").style.width = "100%";
@@ -21,6 +21,7 @@ function Home (){
 
 
       }
+      
       
       mq.addListener(openNav)
       document.getElementById("spa1").style.opacity="1"
@@ -44,6 +45,8 @@ function Home (){
     }
 
   };
+
+
  
 
 
