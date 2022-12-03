@@ -49,7 +49,7 @@ return(
     <div className="contaier1 tex vv" style={{marginLeft:"18px"}}>
 
     <span style={{color:"#a5a7a7"}}>PROJECT<br></br></span>
-<span style={{color:"black"}} >ARCHITECTURAL DESING / SPORT CLUB </span>
+<span style={{color:"black"}} >ARCHITECTURAL DESIGN / SPORT CLUB </span>
 
 
 

@@ -168,10 +168,10 @@ Focused</h3>
 </div>
 </div>
  </div>
-  <div className=""> 
+  {/* <div className=""> 
   <a className="er" href="#">Contact</a>
   
-  </div>
+  </div> */}
   </div>
   <footer  className="social">
   <ul >

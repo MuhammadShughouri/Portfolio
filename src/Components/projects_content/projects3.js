@@ -2,7 +2,7 @@ import React from "react";
 import './projects1.css'
 import shopdrawing from '../assets/images/12.jpg'
 import ProgressiveImage from "react-progressive-image";
-import lood from '../assets/images/looc.gif'
+import lood from '../assets/images/lood.gif'
 
 import { motion} from 'framer-motion'
 import Aos from "aos";

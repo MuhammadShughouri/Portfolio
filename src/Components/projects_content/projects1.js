@@ -6,7 +6,7 @@ import exterior1 from '../assets/images/1.jpg'
 import exterior2 from '../assets/images/5.jpg'
 import exterior3 from '../assets/images/6.jpg'
 import lod from '../assets/images/lod.gif'
-import lood from '../assets/images/looc.gif'
+import lood from '../assets/images/lood.gif'
 
 
 import { motion} from 'framer-motion'
@@ -58,7 +58,7 @@ return(
     <div className="contaier1 tex vv" style={{marginLeft:"18px"}}>
 
     <span style={{color:"#a5a7a7"}}>PROJECT<br></br></span>
-<span style={{color:"black"}} >EXTERIOR DESING</span>
+<span style={{color:"black"}} >EXTERIOR DESIGN</span>
 
 
 
@@ -92,7 +92,7 @@ return(
 <div className="col-md-6 py-2" >
     <div className="contaier1">
 <div className="img-"> 
-<ProgressiveImage src={exterior1}  placeholder={lood}>
+<ProgressiveImage src={exterior}  placeholder={lood}>
   {(src, loading) => (
     <img style={{ opacity: loading ? 0.5 : 1 }} width='100%' src={src} alt="an image" />
   )}
