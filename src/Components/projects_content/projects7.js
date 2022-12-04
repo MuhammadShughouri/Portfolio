@@ -67,7 +67,8 @@ data-aos="fade-right"
     <div className="contaier1 tex " style={{marginLeft:"18px"}}>
 
     <span style={{color:"#a5a7a7"}}>DETAILS <br></br></span>
-<span style={{color:"black"}}  className="bg">We offer a business in exploiting part of the outdoor space of a house and building a small car wash that serves the surrounding area and the homeowner benefits in creating a business for him.</span>
+<span style={{color:"black"}}  className="bg">The shop drawings are considered one of the very important tasks for transferring the 3D design work to pages that contain the exact design details, and this makes it easier for the executor in the process of transferring the design to reality.
+ This is part of my work for a villa project in Saudi Arabia, which is a classic-style hall, and I detailed all the works that the port needs</span>
 
     </div>
 
