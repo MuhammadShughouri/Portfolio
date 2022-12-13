@@ -32,7 +32,10 @@ navigate('/projects#exterior-project')
 
 <span className="name_pro4  animate__animated animate__fadeInLeft">exterior Sitting design </span>
   
-<Link to='/interior-design' className="next " style={{fontSize:"14px"}}>NEXT</Link>
+<button onClick={()=>{
+navigate('/interior-design')
+
+}} className="name_pro4  animate__animated animate__fadeInLeft" style={{fontSize:"14px"}}>NEXT</button>
 
     </div>
    
