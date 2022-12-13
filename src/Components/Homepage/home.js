@@ -96,6 +96,8 @@ return(
  
 <div >
    <div className="col">
+   <h4 style={{position:'absolute'}}> <a className="resume-side" id="resume-side" href={pdf} target='_blank'>view resume</a></h4>
+
 <div style={{height:"49px"}}>  
 <button  id="sp1" className="spa ss"  onClick={()=>{
 

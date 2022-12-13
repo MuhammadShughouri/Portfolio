@@ -237,11 +237,27 @@ font-size: 200px;
 
 color: #39ccc7;
 border-color: #39ccc7;
-transform: rotateY(180deg) !important;
 }
-.resume:hover{
 
-  transform: rotate(360deg) !important;
+
+.resume-side{
+position: absolute;
+transform: rotate(-90deg);
+right: -14px;
+top: 60px;
+font-weight: 600;
+font-family:sans-serif;
+text-decoration: none !important;
+color: #39ccc7 !important;
+}
+@media screen and (max-width:'820px') {
+  .resume-side{
+position: fixed;
+    top: 14px;
+right: 10px !important;
+    transform: rotate(-360deg) !important;
+    z-index: 4 ;
+  }
 }
 
 
