@@ -121,7 +121,7 @@ services()
 
   }}
   
-   className="er active "  >About</a>
+   className="er active " >About</a>
 
  <div id="About">
 <h3 className="py-1 col-md-2" id="p1">Creative<br/>
@@ -207,9 +207,7 @@ Focused</h3>
     <a href="mailto:email@example.com"><i class="fab fa-google-plus-g icon"></i></a></li>
 </ul>
 </footer>
-<div>
 
-</div>
 
 
 
