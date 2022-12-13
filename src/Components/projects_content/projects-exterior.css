@@ -112,9 +112,10 @@ transform: rotate(+386deg) !important;
                         position: fixed;
                         margin-left: 8px;
                         bottom: 90px;
-                        z-index: 2;
+                        z-index: 4;
                        font-weight: 700;
-                       
+                       transition: 1s;
+                       transition-delay: 0.5s;
 
                     }
 
