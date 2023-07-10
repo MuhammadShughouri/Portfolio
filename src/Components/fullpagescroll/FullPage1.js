@@ -258,29 +258,6 @@ return (
           </div>
 
 
-          {/* <div className="section" id="img2" style={architectural_villa}>
-          <div className="container"> 
-            <div className="full-line2"> 
-            <div className="info animate__animated animate__fadeInRight"> 
-           <span>
-           <h4 style={{color:'black'}} id="work">work</h4>
-           <h4 id="num" style={{color:'black'}}>06</h4>
-
-           </span>
-           </div>
-           <Link   className="btn11 " to="/villa" > 
-           <button className="btn12 animate__animated animate__pulse animate__infinite "></button>
-             </Link>
-           
-            <div  className="inter4 animate__animated animate__fadeInRight"> 
-            <span >architectural design</span>
-            <h2>VILLA <br></br>Saudi Arabia</h2>
-            </div>
-           </div>
-           </div>
-
-
-          </div> */}
 
           <div className="section" id="img2" style={architectural_sport}>
           <div className="container"> 
