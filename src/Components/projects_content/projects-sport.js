@@ -35,7 +35,7 @@ navigate('/projects#architectural-sportclub')
 
 
 <button onClick={()=>{
-navigate('/villa')
+navigate('/mosque')
 
 }} className="pre animate__animated animate__pulse animate__infinite" style={{fontSize:"14px"}}>PREVIOUS</button>
 

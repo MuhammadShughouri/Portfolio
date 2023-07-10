@@ -18,7 +18,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 AOS.init();
-const anchors = [ "intro","exterior-project", "interior-design", "shop-drawing","shop-drawing2","architectural-mosuqe","architectural-villa","architectural-sportclub"];
+const anchors = [ "intro","exterior-project", "interior-design", "shop-drawing","shop-drawing2","architectural-mosuqe","architectural-sportclub","architectural-sportclub"];
 
 class Full extends React.Component {
   
@@ -82,10 +82,7 @@ return (
 
       }
 
-      
-        
-
-
+    
       const architectural={
 
         backgroundRepeat: "no-repeat",
@@ -261,7 +258,7 @@ return (
           </div>
 
 
-          <div className="section" id="img2" style={architectural_villa}>
+          {/* <div className="section" id="img2" style={architectural_villa}>
           <div className="container"> 
             <div className="full-line2"> 
             <div className="info animate__animated animate__fadeInRight"> 
@@ -283,7 +280,7 @@ return (
            </div>
 
 
-          </div>
+          </div> */}
 
           <div className="section" id="img2" style={architectural_sport}>
           <div className="container"> 
