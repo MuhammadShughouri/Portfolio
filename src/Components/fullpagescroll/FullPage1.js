@@ -288,7 +288,7 @@ return (
             <div className="info animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
-           <h4 id="num" style={{color:'black'}}>07</h4>
+           <h4 id="num" style={{color:'black'}}>06</h4>
 
            </span>
            </div>
