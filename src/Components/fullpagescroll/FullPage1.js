@@ -285,7 +285,7 @@ return (
           <div className="section" id="img2" style={architectural_sport}>
           <div className="container"> 
             <div className="full-line2"> 
-            <div className="info animate__animated animate__fadeInRight"> 
+            <div className="info  animate__animated animate__fadeInRight"> 
            <span>
            <h4 style={{color:'black'}} id="work">work</h4>
            <h4 id="num" style={{color:'black'}}>06</h4>
